@@ -71,3 +71,12 @@ button{
     gap: 10px;
 }
 
+@media only screen and (max-width: 550px){
+    .main{
+        width: 100%;
+    }
+    .flat{
+        overflow: auto;
+    }
+}
+
