@@ -63,12 +63,22 @@ button{
 .flat{
     width: 100%;
     height: 20vh;
-    background-color: aqua;
+    background-color: rgba(201, 184, 184, 0.5);
+    backdrop-filter: blur(10px);
     margin-bottom: 5px;
     text-align: center;
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+.main{
+    background: url(images/bhk3.jpeg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 @media only screen and (max-width: 550px){
